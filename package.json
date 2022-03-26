@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "generate": "rm -rf node_modules/.cache && next build && next export",
-    "deploy": "touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
+    "deploy": "touch out/.nojekyll && git add -f out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "@emotion/cache": "^11.7.1",
