@@ -25,7 +25,7 @@ const Login: NextPage = () => {
   };
 
   return (
-    <Container component="main" sx={{maxWidth:"sm"}}>
+    <Container component="main" maxWidth="xs">
       <Box
           sx={{
             mt: 8,
