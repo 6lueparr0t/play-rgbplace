@@ -31,13 +31,13 @@
 .title a {
   color: #0070f3;
   text-decoration: none;
+
+  &:hover, &:focus, &:active {
+    text-decoration: underline;
+  }
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
+
 
 .title {
   margin: 0;
