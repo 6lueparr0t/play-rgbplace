@@ -3,11 +3,11 @@ import type { NextPage } from 'next';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import Navigation from '../src/header/Navigation';
-import SearchBox from '../src/SearchBox';
+import Navigation from '../header/Navigation';
+import SearchBox from '../SearchBox';
 
-import Link from '../src/Link';
-import Copyright from '../src/Copyright';
+import Link from '../Link';
+import Copyright from '../Copyright';
 
 const Home: NextPage = () => {
   return (
